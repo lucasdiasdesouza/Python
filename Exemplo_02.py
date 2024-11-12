@@ -1,11 +1,13 @@
 from os import system
 system('cls')
+import time
 
-idade = 15
-altura = 1.75
-etnia = "indigena"
+i= 1
+soma = 0
 
-if(idade == 15 and altura == 1.75 and etnia == "indigena"):
-    print("Aprovada")
-else: 
-    print("Reprovada")
+while (i<=5):
+    #soma  = soma +i
+    soma +=i
+    print("volta: ",i)
+    i+=1
+print("Soma dos numeros: ",soma)

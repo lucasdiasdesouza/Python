@@ -1,9 +1,11 @@
 from os import system
 system('cls')
+import time
 
-idade = 15
+cont=0+1
 
-if (idade == 15):
-    print("Aprovada!")
-else:
-    print("Reprovada")
+while (cont<5):
+    print("Olá Mundo ", cont)
+    time.sleep(4)
+    cont+=1
+    

@@ -1,15 +1,12 @@
 from os import system
 system('cls')
+import time
 
-# maior 7 = aprovado
-# entre 5 e menor que 7 = recuperação
-# menor que 5 = reprovado
+soma = 0
 
-media = 5
-
-if(media >=7 ):
-    print("Aprovado")
-elif (media >=5 and media <7):
-    print("Recuperação")
-else:
-    print("Reprovado")
+while (True):
+    num = int(input("Digite um número: "))
+    if (num <0):
+        break
+    soma += num
+print(f'A soma dos numeros é: {soma}')
